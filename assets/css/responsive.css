@@ -1,0 +1,105 @@
+@media (min-width: 640px) {
+    .background-photo {
+        height: 20rem; 
+    }
+    footer div{
+       justify-content: space-between;
+       padding: 1.5rem; 
+       flex-direction: row;
+    }
+
+    footer div span{
+        text-align: center;
+    }
+
+    footer div ul{
+        margin-top: 0;
+        justify-content: flex-start;
+    }
+
+    footer div ul li a{
+        margin-right: 1.5rem;
+    }
+
+    
+}
+
+@media (min-width: 1280px) {
+    .biodata-content{
+        flex-direction: row;
+        row-gap: 1rem;
+    }
+    .bio-aside-detail{
+        width: 33.333%;
+        margin-right: 1rem;
+    }
+    .biodata-main{
+        width: 66.667%;
+        margin-top: 0;
+    }
+    .detail .detail-case .case .case-content .case-handle span:first-child{
+        font-size: 1.875rem;
+        line-height: 2.25rem
+    }
+}
+
+@media (min-width:1024px) {
+    .detail .detail-case{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .nav-bar .sidebarOpen {
+      display: block;
+    }
+  
+    .menu {
+      position: fixed;
+      height: 100%;
+      width: 320px;
+      left: -100%;
+      top: 0;
+      padding: 20px;
+      background-color:#010718;
+      z-index: 100;
+      transition: all 0.4s ease;
+    }
+    
+    .nav-bar{
+        padding: 0 1rem;
+    }
+    nav.active .menu {
+      left: -0%;
+    }
+  
+    nav.active .nav-bar .navLogo a {
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+  
+    .menu .logo-toggle {
+      display: block;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .logo-toggle .siderbarClose {
+      color: white;
+      height: 1.5rem;
+      width: 1.5rem;
+      cursor: pointer;
+    }
+  
+    .nav-bar .nav-links {
+      flex-direction: column;
+      padding-top: 30px;
+    }
+  
+    .nav-links li a {
+      display: block;
+      margin-top: 20px;
+    }
+  }
